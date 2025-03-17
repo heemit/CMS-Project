@@ -25,8 +25,7 @@ Before starting, make sure you have the following installed:
 
 ## Live Demo
 
-Access the website here: [Blog Website](https://jittery-winonah-heemit-cfa0b49d.koyeb.app/blog/)
-Access the admin dashboard here: [Blog Website](https://jittery-winonah-heemit-cfa0b49d.koyeb.app/blog/)
+Access the admin dashboard here: [CMS Website](https://jittery-winonah-heemit-cfa0b49d.koyeb.app/admin/)
 
 ## Using the CMS
 
