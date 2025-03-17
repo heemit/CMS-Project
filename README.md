@@ -25,7 +25,17 @@ Before starting, make sure you have the following installed:
 
 ## Live Demo
 
-Access the blog here: [Blog Website](https://jittery-winonah-heemit-cfa0b49d.koyeb.app/blog/)
+Access the website here: [Blog Website](https://jittery-winonah-heemit-cfa0b49d.koyeb.app/blog/)
+Access the admin dashboard here: [Blog Website](https://jittery-winonah-heemit-cfa0b49d.koyeb.app/blog/)
+
+## Using the CMS
+
+Before starting, make sure you have the following installed:
+
+- **Navigate to the Pages model in the Django admin**
+- **Use GrapeJS Editor to visually design pages**
+- **Upload and manage media files from the admin**
+- **Choose to display header/footer on selected pages**
 
 ## Installation
 
