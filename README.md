@@ -1,6 +1,6 @@
 # **Django CMS with GrapeJS - Drag-and-Drop Page Builder**
 
-A modern **Django-based CMS** with **GrapeJS integration** that allows users to create and manage dynamic web pages using a visual **drag-and-drop builder**. This CMS enables **database-driven content rendering**, **media file uploads**, and a **customizable header/footer display**.
+A modern **Django-based CMS** with **GrapeJS integration** that allows users to create and manage dynamic web pages using a visual **drag-and-drop builder**. This CMS enables **database-driven content rendering**, **media file uploads**, and a **customizable header/footer display** per page.
 
 ## **Features**
 **GrapeJS Integration** – Drag-and-drop page builder for easy page creation  
