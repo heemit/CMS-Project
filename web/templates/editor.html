@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CMS Editor</title>
+    <link rel="stylesheet" href="https://unpkg.com/grapesjs/dist/css/grapes.min.css">
+</head>
+<body>
+    <div id="editor"></div>
+    <button onclick="savePage()">Save</button>
+
+    <script src="https://unpkg.com/grapesjs"></script>
+    <script>
+        const editor = grapesjs.init({
+            container: '#editor',
+            fromElement: true,
+            height: '100vh',
+            storageManager: false,
+        });
+
+        function savePage() {
+            fetch("/save/", {
+                method: "POST",
+                headers: { "Content-Type": "application/x-www-form-urlencoded" },
+                body: new URLSearchParams({
+                    url: window.location.pathname,
+                    content: editor.getHtml(),
+                    show_header: true,
+                    show_footer: true
+                })
+            }).then(response => response.json())
+            .then(data => alert("Page saved!"));
+        }
+    </script>
+</body>
+</html>
