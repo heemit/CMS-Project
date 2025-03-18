@@ -135,17 +135,19 @@ CSRF_COOKIE_SAMESITE = 'Lax'
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.1/howto/static-files/
 
-STATIC_URL = 'https://ec2-3-110-188-209.ap-south-1.compute.amazonaws.com/static/'
-MEDIA_URL = 'https://ec2-3-110-188-209.ap-south-1.compute.amazonaws.com/media/'
+STATIC_URL = '/static/'
 
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'web', 'static'),  # Correct path to the static folder
 ]
 
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
-MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+
+MEDIA_URL = '/media/'
+
+MEDIA_ROOT = BASE_DIR / 'media'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
