@@ -28,6 +28,8 @@ DEBUG = False
 
 ALLOWED_HOSTS = ["inland-gerri-heemit-0a6c5f26.koyeb.app", "localhost", "127.0.0.1"]
 
+SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
+
 # Application definition
 
 INSTALLED_APPS = [
