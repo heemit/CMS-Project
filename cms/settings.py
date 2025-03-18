@@ -24,7 +24,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-f@ud(a!r&hh0w-&dy8*wcvq@7b4t(cl&jmc1w6+3^wrqgo16bq'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ["inland-gerri-heemit-0a6c5f26.koyeb.app", "localhost", "127.0.0.1", "ec2-3-110-188-209.ap-south-1.compute.amazonaws.com", "3.110.188.209"]
 
@@ -141,7 +141,7 @@ STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'web', 'static'),  # Correct path to the static folder
 ]
 
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
