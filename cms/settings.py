@@ -141,13 +141,13 @@ STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'web', 'static'),  # Correct path to the static folder
 ]
 
-STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+STATIC_ROOT = '/var/www/cms/static/'
+
+MEDIA_ROOT = '/var/www/cms/media/'
 
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 MEDIA_URL = '/media/'
-
-MEDIA_ROOT = BASE_DIR / 'media'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
