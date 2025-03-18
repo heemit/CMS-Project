@@ -25,7 +25,7 @@ Before starting, make sure you have the following installed:
 
 ## Live Demo
 
-Access the admin dashboard here: [CMS Website](https://jittery-winonah-heemit-cfa0b49d.koyeb.app/admin/)
+Access the admin dashboard here: [CMS Website](https://inland-gerri-heemit-0a6c5f26.koyeb.app/admin/)
 
 ## Using the CMS
 
