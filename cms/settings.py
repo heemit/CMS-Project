@@ -49,6 +49,7 @@ INSTALLED_APPS = [
     'tinymce',
     'simple_history',
     'grape_js',
+    'corsheaders',
 ]
 
 UNFOLD = {
@@ -64,6 +65,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'corsheaders.middleware.CorsMiddleware',
 ]
 
 ROOT_URLCONF = 'cms.urls'
@@ -135,15 +137,18 @@ CSRF_COOKIE_SAMESITE = 'Lax'
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.1/howto/static-files/
 
+CORS_ALLOWED_ORIGINS = [
+    'https://inland-gerri-heemit-0a6c5f26.koyeb.app',  # Your Koyeb URL
+]
+
 STATIC_URL = '/static/'
 
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'web', 'static'),  # Correct path to the static folder
 ]
 
-STATIC_ROOT = '/var/www/cms/static/'
-
-MEDIA_ROOT = '/var/www/cms/media/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
