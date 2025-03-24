@@ -25,7 +25,7 @@ Before starting, make sure you have the following installed:
 
 ## Live Demo
 
-Access the admin dashboard here: [CMS Website](https://inland-gerri-heemit-0a6c5f26.koyeb.app/admin/)
+Access the admin dashboard here: [CMS Website](http://ec2-3-110-188-209.ap-south-1.compute.amazonaws.com:8000/admin/)
 
 ## Using the CMS
 
@@ -105,3 +105,27 @@ Before starting, make sure you have the following installed:
     Go to `http://127.0.0.1:8000/` to view the homepage and browse the blogs.
 
 ## Images
+
+![image](https://github.com/user-attachments/assets/26dea587-912f-48ff-92df-dd4f9ea74061)
+
+![image](https://github.com/user-attachments/assets/a11d79a7-55ca-4670-9df3-8616e3e7a46e)
+
+![image](https://github.com/user-attachments/assets/cb1c33c9-49a4-4d05-85ae-4d7ca089e1d2)
+
+![image](https://github.com/user-attachments/assets/5ca68749-0236-4a92-9caf-5b7eab5fd527)
+
+![image](https://github.com/user-attachments/assets/854c784b-0bc3-4402-b3ce-a9b763d12924)
+
+![image](https://github.com/user-attachments/assets/46862966-04d8-4644-8e4d-7cc6219e4a29)
+
+![image](https://github.com/user-attachments/assets/f0707841-b629-4110-ab2a-32e963f391ef)
+
+![image](https://github.com/user-attachments/assets/bf5c8271-66a3-4a67-8b08-9871e4e7d43f)
+
+![image](https://github.com/user-attachments/assets/cdb75f5b-f6cf-48ac-a626-dc2efb72ff23)
+
+![image](https://github.com/user-attachments/assets/f280c412-be28-49e5-83d0-c9695d226cb9)
+
+![image](https://github.com/user-attachments/assets/887fc8c1-5ac4-4fa6-895b-f62e44548ac3)
+
+![image](https://github.com/user-attachments/assets/dda718ac-87bf-4894-a1ba-dc032d764fc1)
